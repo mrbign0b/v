@@ -23,7 +23,7 @@ jobs:
       - name: Check out Private Repo
         uses: actions/checkout@v4
         with:
-          repository: mrbign0b/v2raylinksave # <-- IMPORTANT: CHANGE THIS
+          repository: mrbign0b/v2raylinksave- # <-- IMPORTANT: CHANGE THIS
           path: private_repo
           token: ${{ secrets.REPO_ACCESS_PRI }}
 
