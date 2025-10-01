@@ -5,7 +5,7 @@ name: V2Ray Scraper -> Push to Private Repo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/10 * * * *' 
+    - cron: '*/30 * * * *' 
 
 jobs:
   scrape-and-push:
